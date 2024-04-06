@@ -22,7 +22,7 @@
 
 # All execution starts from the main function.
 # TODO: Once Mojo gets support for top level expressions, should I remove the main function?
-fn main():
+def main():
     # The Mojo compiler will evaluate the following statements
     print(486)  # No semicolons required!
 

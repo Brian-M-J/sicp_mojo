@@ -15,7 +15,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/gpl-3.0.html>.
 
 
-fn main():
+def main():
     alias size = 2
     # Mojo uses the keyword alias to create constants.
     # The value of constants is fixed before your program starts executing.
