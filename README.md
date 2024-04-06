@@ -17,3 +17,5 @@ TODO: It's not yet clear whether Mojo only supports tail recursion optimization 
 You can run the programs in the Mojo REPL if you prefer the instantaneous feedback (type `mojo`/`mojo repl` in your terminal to open the Mojo REPL (read-evaluate-print loop)) or put your scripts in a .mojo/.🔥 file and run them with `mojo <filename>.mojo`/`mojo <filename>.🔥`.
 
 Alternatively, you can directly use Mojo in the browser through the [Mojo playground](https://docs.modular.com/mojo/playground).
+
+TODO: Implement mojo_slang based on [js-slang](https://github.com/source-academy/js-slang) instead of copy-pasting the code directly.
