@@ -1,4 +1,4 @@
-# All the programs in section 1.1.1 - Expressions of the book Structure and Interpretation of Computer Programs JavaScript Edition
+# All the programs in section 1.1.1 - Expressions
 # Copyright (C) 2024  Brian-M-J
 #
 # This program is free software: you can redistribute it and/or modify
