@@ -49,3 +49,37 @@ def main():
     # TODO: In Python, it can also be:
     # x in range(6, 10)
     # Change this to Mojo once it adds support for this
+
+
+# Code for Exercises
+# Exercise 1.1
+# 10
+# 5 + 3 + 4
+# 9 - 1
+# 6 / 2
+# 2 * 4 + (4 - 6)
+# alias a = 3
+# alias b = a + 1
+# a + b + a * b
+# a == b
+# b > a and b if b < a * b else a
+# 6 if a == 4 else 6 + 7 + a if b == 4 else 25
+# 2 + (b if b > a else a)
+# (a if a > b else b if a < b else -1) * (a + 1)
+
+# Exercise 1.2
+# Translate the following expression into Mojo
+# TODO: Insert picture of expression from pg 17
+
+# Exercise 1.4
+# def plus(a, b): return a + b
+# def minus(a, b): return a - b
+# def a_plus_abs_b(a, b):
+#    return (plus if b >= 0 else minus)(a, b)
+
+# Exercise 1.5
+# def p(): return p()
+# def test(x, y):
+#     return 0 if x == 0 else y
+# Then he evaluates the statement
+# test(0, p())
