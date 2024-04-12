@@ -45,3 +45,26 @@ def main():
     print(linear_iterative_expt(2, 3))
     print(fast_expt(2, 3))
     # TODO: Run this code once Mojo adds support for /, // and % on object
+
+# Code for Exercises
+# Exercise 1.17
+# def times(a, b):
+#     return 0 if b == 0 else  a + times(a, b - 1)
+
+# Exercise 1.19
+# def fib(n):
+#     return fib_iter(1, 0, 0, 1, n)
+# def fib_iter(a, b, p, q, count):
+#    return b
+#           if count == 0
+#           else fib_iter(a,
+#                         b,
+#                         (??),  # compute p'
+#                         (??),  # compute q'
+#                         count / 2)
+#                if is_even(count)
+#                else fib_iter(b * q + a * q + a * p,
+#                              b * p + a * q,
+#                              p,
+#                              q,
+#                              count - 1)

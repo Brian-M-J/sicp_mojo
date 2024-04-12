@@ -73,3 +73,11 @@ def expmod(base, exp, m):
 
 def main():
     print((lambda x, y, z: x + y + square(z))(1, 2, 3))  # Prints 12
+
+
+# Code for Exercises
+# Exercise 1.34
+# def f(g):
+#     return g(2)
+# f(square)  # Prints 4
+# f(lambda z: z * (z + 1))  # Prints 6

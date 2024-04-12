@@ -68,3 +68,17 @@ def sqrt(x):
 def main():
     print(average_damp(square)(10))  # Prints 55
     print(deriv(cube)(5))  # Prints 75.00014999664018
+
+
+# Code for Exercises
+# Exercise 1.40
+# newtons_method(cubic(a, b, c), 1)
+
+# Exercise 1.41
+# double(double(double))(inc)(5)
+
+# Exercise 1.42
+# compose(square, inc)(6)  # Prints 49
+
+# Exercise 1.43
+# repeated(square, 2)(5)  # Prints 625

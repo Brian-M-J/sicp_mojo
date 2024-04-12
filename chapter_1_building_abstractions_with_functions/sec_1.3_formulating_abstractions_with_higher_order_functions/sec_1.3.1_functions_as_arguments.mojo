@@ -80,3 +80,13 @@ def main():
     print(8 * pi_sum(1, 1000))  # Prints 3.139592655589783
     print(integral(cube, 0, 1, 0.01))  # Prints 0.24998750000000042
     print(integral(cube, 0, 1, 0.001))  # Prints 0.249999875000001
+
+
+# Code for Exercises
+# Exercise 1.30
+# def sum(term, a, next, b):
+#     def iter(a, result):
+#         return (??)
+#                if (??)
+#                else iter((??), (??))
+#     return iter((??), (??))

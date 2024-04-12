@@ -62,3 +62,8 @@ def main():
     print(half_interval_method(lambda x: x * x * x - 2 * x - 3, 1, 2))  # Prints 1.89306640625
     print(fixed_point(math_cos, 1))  # Prints 0.7390822985224023
     print(fixed_point(lambda y: math_sin(y) + math_cos(y), 1))  # Prints 1.2587315962971173
+
+
+# Code for Exercises
+# Exercise 1.37
+# cont_frac(lambda i: 1, lambda i: 1, k)

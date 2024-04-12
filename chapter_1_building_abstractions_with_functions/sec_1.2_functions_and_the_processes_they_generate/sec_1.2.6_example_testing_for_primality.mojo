@@ -67,3 +67,30 @@ def main():
     print(is_prime(17))
     print(fast_is_prime(17))
     # TODO: Run this code once Mojo adds support for /, // and % on object
+
+
+# Code for Exercises
+# Exercise 1.22
+# def timed_prime_test(n):
+#     display(n)  # TODO: See if this function is equivalent to print
+#     return start_prime_test(n, get_time())
+# def start_prime_test(n, start_time):
+#     return report_prime(get_time() - start_time)
+#            if is_prime(n)
+#            else True
+# def report_prime(elapsed_time):
+#     display(" *** ")
+#     display(elapsed_time)
+
+# Exercise 1.25
+# def expmod(base, exp, m):
+#     return fast_expt(base, exp) % m
+
+# Exercise 1.26
+# def expmod(base, exp, m):
+#     return 1
+#            if exp == 0
+#            else ( expmod(base, exp / 2, m)
+#                  * expmod(base, exp / 2, m)) % m
+#            if is_even(exp)
+#            else (base * expmod(base, exp - 1, m)) % m

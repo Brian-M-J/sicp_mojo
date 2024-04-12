@@ -46,3 +46,27 @@ def main():
     print(factorial_v2(6))
     print(factorial_v3(6))
     # All 3 outputs should be equivalent
+
+# Code for Exercises
+# Exercise 1.9
+# def plus(a, b):
+#     return b if a == 0 else inc(plus(dec(a), b))
+# def plus(a, b):
+#     return b a == 0 else plus(dec(a), inc(b))
+# plus(4, 5)
+
+# Exercise 1.10
+# def A(x, y):
+# return 0 if y == 0 else 2 * y if x == 0 else 2 if y == 1 else A(x - 1, A(x, y - 1))
+# A(1, 10)
+# A(2, 4)
+# A(3, 3)
+# 
+# def f(n):
+#     return A(0, n)
+# def g(n):
+#     return A(1, n)
+# def h(n):
+#     return A(2, n)
+# def k(n):
+#     return 5 * n * n
