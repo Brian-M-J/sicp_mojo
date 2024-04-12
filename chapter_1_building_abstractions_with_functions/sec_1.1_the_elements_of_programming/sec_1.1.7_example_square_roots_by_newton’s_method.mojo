@@ -51,3 +51,14 @@ def main():
     print(sqrt(sqrt(2) + sqrt(3)))  # Prints 1.7739279023207892
     print(square(sqrt(1000)))  # Prints 1000.000369924366
     # TODO: The code does not work. I have filed an issue: https://github.com/modularml/mojo/issues/2224
+
+# Code for Exercises
+# Exercise 1.6
+# def conditional(predicate, then_clause, else_clause):
+#     return then_clause if predicate else else_clause
+#
+# conditional(2 == 3, 0, 5)  # Prints 5
+# conditional(1 == 1, 0, 5)  # Prints 0
+#
+# def sqrt_iter(guess, x):
+# return conditional(is_good_enough(guess, x), guess, sqrt_iter(improve(guess, x), x))
