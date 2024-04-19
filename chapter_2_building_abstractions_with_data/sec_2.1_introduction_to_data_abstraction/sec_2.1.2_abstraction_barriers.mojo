@@ -27,3 +27,9 @@ def numer(x):
 def denom(x):
     var g = gcd(head(x), tail(x))
     return tail(x) / g
+
+
+# Code for Exercises
+# Exercise 2.2
+# def print_point(p):
+#     return display("(" + stringify(x_point(p)) + ", " + stringify(y_point(p)) + ")")  # TODO: Implement display, stringify in slang_mojo

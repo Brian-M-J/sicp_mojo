@@ -38,3 +38,47 @@ def main():
     print(length(list(x, x)))  # Prints 2
     print(count_leaves(list(x, x)))  # Prints 8
     print(scale_tree(list(1, list(2, list(3, 4), 5), list(6, 7)), 10))  # Prints list(10, list(20, list(30, 40), 50), list(60, 70))
+
+
+# Code for Exercises
+# Exercise 2.26
+# alias x = list(1, 2, 3)
+# alias y = list(4, 5, 6)
+
+# Exercise 2.27
+# alias x = list(list(1, 2), list(3, 4))
+# x  # Prints list(list(1, 2), list(3, 4))
+# reverse(x)  # Prints list(list(3, 4), list(1, 2))
+# deep_reverse(x)  # Should print list(list(4, 3), list(2, 1))
+
+# Exercise 2.28
+# const x = list(list(1, 2), list(3, 4))
+# fringe(x)  # Should print list(1, 2, 3, 4)
+# fringe(list(x, x))  # Should print list(1, 2, 3, 4, 1, 2, 3, 4)
+
+# Exercise 2.29
+# def make_mobile(left, right):
+#     return list(left, right)
+# def make_branch(length, structure):
+#     return list(length, structure)
+# def make_mobile(left, right):
+#     return pair(left, right)
+# def make_branch(length, structure):
+#     return pair(length, structure)
+
+# Exercise 2.30
+# square_tree(list(1,
+#                  list(2, list(3, 4), 5),
+#                  list(6, 7)))
+# # Should print list(1, list(4, list(9, 16), 25), list(36, 49))
+
+# Exercise 2.31
+# def square_tree(tree): return tree_map(square, tree)
+
+# Exercise 2.32
+# def subsets(s):
+#     if (is_null(s)):  # TODO: is_none?
+#         return list(null)
+#     else:
+#         let rest = subsets(tail(s))  # TODO: Explain the use of let here
+#         return append(rest, map((??), rest))

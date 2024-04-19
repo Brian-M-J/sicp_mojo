@@ -29,3 +29,16 @@ def mul_interval(x, y):
 
 def div_interval(x, y):
     return mul_interval(x, make_interval(1 / upper_bound(y), 1 / lower_bound(y)))
+
+
+# Code for Exercises
+# Exercise 2.7
+# def make_interval(x, y): return pair(x, y)
+
+# Exercise 2.11
+# def make_center_width(c, w):
+#     return make_interval(c - w, c + w)
+# def center(i):
+#     return (lower_bound(i) + upper_bound(i)) / 2
+# def width(i):
+#     return (upper_bound(i) - lower_bound(i)) / 2

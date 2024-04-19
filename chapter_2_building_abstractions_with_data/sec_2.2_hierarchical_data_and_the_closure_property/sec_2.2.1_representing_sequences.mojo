@@ -70,3 +70,57 @@ def main():
     print(scale_list(list(1, 2, 3, 4, 5), 10))  # Prints [10, [20, [30, [40, [50, null]]]]]
     print(map(abs, list(-10, 2.5, -11.6, 17)))  # Prints [10, [2.5, [11.6, [17, null]]]]
     print(map(lambda x: x * x, list(1, 2, 3, 4)))  # Prints [1, [4, [9, [16, null]]]]
+
+
+# Code for Exercises
+# Exercise 2.17
+# last_pair(list(23, 72, 149, 34))  # Should print list(34)
+
+# Exercise 2.18
+# reverse(list(1, 4, 9, 16, 25))  # Should print list(25, 16, 9, 4, 1)
+
+# Exercise 2.19
+# alias us_coins = list(50, 25, 10, 5, 1)
+# alias uk_coins = list(100, 50, 20, 10, 5, 2, 1)
+#
+# cc(100, us_coins)  # Should print 292
+#
+# def cc(amount, coin_values):
+#     return 1 if amount == 0 else 
+#            0 if amount < 0 or no_more(coin_values) else 
+#            cc(amount, except_first_denomination(coin_values)) + cc(amount - first_denomination(coin_values), coin_values)
+
+# Exercise 2.20
+# def plus_curried(x):
+#     return lambda y: x + y
+# brooks(plus_curried, list(3, 4))  # Should print 7
+# brooks_curried(list(plus_curried, 3, 4))  # Should print 7
+#
+# brooks_curried(list(brooks_curried, list(plus_curried, 3, 4)))
+# brooks_curried(list(brooks_curried, list(brooks_curried, list(plus_curried, 3, 4))))
+
+# Exercise 2.21
+# square_list(list(1, 2, 3, 4))  # Should print [1, [4, [9, [16, null]]]]
+#
+# def square_list(items):
+#     return None if is_null(items) else pair((??), (??))  # TODO: is_none instead of is_null?
+# def square_list(items):
+#     return map((??), (??))
+
+# Exercise 2.22
+# def square_list(items):
+#     def iter(things, answer):
+#         return answer if is_null(things) else iter(tail(things), pair(square(head(things)), answer))
+#     return iter(items, None)
+#
+# def square_list(items):
+#     def iter(things, answer):
+#         return answer if is_null(things) else iter(tail(things), pair(answer, square(head(things))))
+#     return iter(items, None)
+
+# Exercise 2.23
+# for_each(lambda x: display(x), list(57, 321, 88))  # TODO: Implement display in slang_mojo
+# # Should print:
+# # 57
+# # 321
+# # 88

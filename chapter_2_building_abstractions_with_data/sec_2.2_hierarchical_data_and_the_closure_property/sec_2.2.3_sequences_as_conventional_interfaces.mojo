@@ -119,3 +119,67 @@ def main():
     print(enumerate_tree(list(1, list(2, list(3, 4)), 5)))  # Prints list(1, 2, 3, 4, 5)
     print(list_fib_squares(10))  # Prints list(0, 1, 1, 4, 9, 25, 64, 169, 441, 1156, 3025)
     print(product_of_squares_of_odd_elements(list(1, 2, 3, 4, 5)))  # Prints 225
+
+
+# Code for Exercises
+# Exercise 2.33
+# def map(f, sequence):
+#     return accumulate(lambda x, y: (??), None, sequence)
+# def append(seq1, seq2):
+#     return accumulate(pair, (??), (??))
+# def length(sequence):
+#     return accumulate((??), 0, sequence)
+
+# Exercise 2.34
+# def horner_eval(x, coefficient_sequence):
+#     return accumulate(lambda this_coeff, higher_terms: (??), 0, coefficient_sequence)
+
+# Exercise 2.35
+# def count_leaves(t):
+#     return accumulate((??), (??), map((??), (??)))
+
+# Exercise 2.36
+# def accumulate_n(op, init, seqs):
+#     return None if is_null(head(seqs)) else pair(accumulate(op, init, (??)), accumulate_n(op, init, (??)))
+
+# Exercise 2.37
+# def dot_product(v, w):
+#     return accumulate(plus, 0, accumulate_n(times, 1, list(v, w)))
+# def matrix_times_vector(m, v):
+#     return map((??), m)
+# def transpose(mat):
+#     return accumulate_n((??), (??), mat)
+# def matrix_times_matrix(n, m):
+#     let cols = transpose(n)
+#     return map((??), m)
+
+# Exercise 2.38
+# def fold_left(op, initial, sequence):
+#     def iter(result, rest):
+#         return result if is_null(rest) else iter(op(result, head(rest)), tail(rest))
+#     return iter(initial, sequence)
+
+# Exercise 2.39
+# def reverse(sequence):
+#     return fold_right(lambda x, y: (??), None, sequence)
+# def reverse(sequence):
+#     return fold_left(lambda x, y: (??), None, sequence)
+
+# Exercise 2.42
+# def queens(board_size):
+#     def queen_cols(k):
+#         return list(empty_board) 
+#                if k == 0
+#                else filter(lambda positions: is_safe(k, positions),
+#                            flatmap(lambda rest_of_queens:
+#                                     map(lambda new_row: adjoin_position(new_row, k, rest_of_queens),
+#                                         enumerate_interval(1, board_size)),
+#                            queen_cols(k - 1)))
+#     return queen_cols(board_size)
+
+# Exercise 2.43
+# flatmap(lambda new_row:
+#           map(lambda rest_of_queens:
+#                 adjoin_position(new_row, k, rest_of_queens),
+#               queen_cols(k - 1)),
+#         enumerate_interval(1, board_size))

@@ -22,3 +22,17 @@ def pair(x, y):
 
 def head(z): return z(0)
 def tail(z): return z(1)
+
+
+# Code for Exercises
+# Exercise 2.4
+# def pair(x, y):
+#     return lambda m: m(x, y)
+#
+# def head(z):
+#     return z(lambda p, q: p)
+
+# Exercise 2.6
+# alias zero = lambda f: lambda x: x
+# def add_1(n):
+#     return lambda f: lambda x: f(n(f)(x))
