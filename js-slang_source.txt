@@ -1,1 +1,9 @@
+# Reference links for js-slang
+
+https://about.sourceacademy.org/developer/README.html
+
 https://github.com/source-academy/js-slang
+
+https://docs.sourceacademy.org/source_4/global.html (Docs of js-slang)
+
+https://docs.sourceacademy.org/
